@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>CFBundleDevelopmentRegion</key>
+		<string>$(DEVELOPMENT_LANGUAGE)</string>
+		<key>CFBundleDisplayName</key>
+		<string>Loginio</string>
+		<key>CFBundleExecutable</key>
+		<string>$(EXECUTABLE_NAME)</string>
+		<key>CFBundleIdentifier</key>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+		<key>CFBundleInfoDictionaryVersion</key>
+		<string>6.0</string>
+		<key>CFBundleName</key>
+		<string>sn1cka_template</string>
+		<key>CFBundlePackageType</key>
+		<string>APPL</string>
+		<key>CFBundleShortVersionString</key>
+		<string>$(FLUTTER_BUILD_NAME)</string>
+		<key>CFBundleSignature</key>
+		<string>????</string>
+		<key>CFBundleVersion</key>
+		<string>$(FLUTTER_BUILD_NUMBER)</string>
+		<key>LSRequiresIPhoneOS</key>
+		<true/>
+		<key>UILaunchStoryboardName</key>
+		<string>LaunchScreen</string>
+		<key>UIMainStoryboardFile</key>
+		<string>Main</string>
+		<key>UISupportedInterfaceOrientations</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>UISupportedInterfaceOrientations~ipad</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationPortraitUpsideDown</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>UIViewControllerBasedStatusBarAppearance</key>
+		<true/>
+		<key>NSAppTransportSecurity</key>
+		<dict>
+			<key>NSAllowsLocalNetworking</key>
+			<true/>
+		</dict>
+		<key>NSCalendarsUsageDescription</key>
+		<string>MegaPay требуются разрешения к календарю для работы</string>
+		<key>NSCameraUsageDescription</key>
+		<string>Loginio требуется доступ к камере для первичной регистрации и сканирования штрих-кода</string>
+		<key>NSContactsUsageDescription</key>
+		<string>Loginio требуется доступ к контактам для удобства оплаты</string>
+		<key>NSFaceIDUsageDescription</key>
+		<string>FaceID требуется для авторизации в приложении</string>
+		<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+		<string>Требуется доступ к данным о местоположении для определения местонахождения и показа на карте ближайших терминалов и центров обслуживания</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>Требуется доступ к данным о местоположении для определения Вашего местоположения на карте.</string>
+		<key>NSAppleMusicUsageDescription</key>
+		<string>Loginio требуется доступ к музыке для работы</string>
+		<key>NSMicrophoneUsageDescription</key>
+		<string>Loginio требуется доступ к микрофону для первичной регистрации</string>
+		<key>NSMotionUsageDescription</key>
+		<string>Loginio требуется доступ для работы приложения</string>
+		<key>NSPhotoLibraryAddUsageDescription</key>
+		<string>Loginio требуется доступ к галерее для сохранения фото нарушений</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>Loginio требуется доступ к галерее для сохранения фото нарушений</string>
+		<key>NSSpeechRecognitionUsageDescription</key>
+		<string>Loginio требуется доступ к распознаванию речи для работы приложения</string>
+		<key>UIStatusBarHidden</key>
+		<false/>
+		<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+</dict>
+</plist>

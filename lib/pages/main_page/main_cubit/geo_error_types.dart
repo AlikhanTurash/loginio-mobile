@@ -1,0 +1,4 @@
+enum GeoError {
+  serviceUnavailable,
+  permissionDenied,
+}
